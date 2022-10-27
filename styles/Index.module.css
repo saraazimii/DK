@@ -1,0 +1,49 @@
+.showcase *{
+    margin:0;
+    padding:0;
+  } 
+  
+  .showcase *{
+    margin:0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size:17px;
+    color:#926239;
+    line-height:1.6;
+  }
+  
+  .showcase{
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:0 20px;
+  }
+  
+  .showcase h1{
+    font-size:50px;
+    line-height:1.2;
+  }
+  
+  .showcase p{
+    font-size:20px;
+  }
+  
+.button{
+    font-size:18px;
+    text-decoration:none;
+
+    padding:15px 25px;
+    border-radius:10px;
+    margin-top:20px;
+    background:#926239;
+    color:#fff;
+  }
+  
+.button:hover{
+    background:#5f4025;
+    color:#fff;
+  }
