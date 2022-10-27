@@ -33,12 +33,12 @@ const BookCard = (props) => {
         </div>
         
         <div className={styles.grid}>
-            {props.books.map(book => (
+            {props.books?.map(book => (
                 <div key={book.id} className={styles.card}>
-                <img src={book.imageUrl} />
-                <h4>{book.title}</h4>
-                <p className={styles.title}>£{book.price}</p>
-                <Link href={`books/${book.id}`}>
+                <img src={book?.imageUrl} />
+                <h4>{book?.title}</h4>
+                <p className={styles.title}>£{book?.price}</p>
+                <Link href={`books/${book?.id}`}>
                 <p><button>Details</button></p>
                 </Link>
             </div>
